@@ -9,7 +9,7 @@ export default function Communities() {
       <div className="Bg-white  lg:p-16 p-6 mx-auto ">
         <h1 className=" lg:py-10 md:py-7 sm:py-5  font-raleway text-4xl sm:text-3xl  text-[#e8e4e4] uppercase">
           {" "}
-          CityGrow Community
+          Boundary Bytes Cricket Acadamy Community
         </h1>
         <p className="font-manrope text-sm py-2  mx-auto mb-8 text-gray-200">
           {" "}
@@ -23,7 +23,7 @@ export default function Communities() {
             href="./contact"
             className=" mt-5  bg-orange-500 text-white font-bold py-3 px-6 rounded-sm font items-start justify-start  -xs-full-width hover:cursor-pointer font-manrope  hover:scale-[1.04]"
           >
-            <button> Contact  Now</button>
+            <button> Contact Now</button>
           </a>
           <a
             href="#contact"

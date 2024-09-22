@@ -61,9 +61,8 @@ function About() {
         "
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.176 }} 
+        transition={{ delay: 0.176 }}
       >
-      
         <p className="text-sm font-lora uppercase mt-10 text-neutral-500 dark:text-slate-200 font-semibold">
           {" "}
           Discover Exciting Tournaments{" "}
@@ -76,8 +75,8 @@ function About() {
           className="mt-3 text-slate-500 items-center text-center flex justify-center p-9  text-[17px] max-w-8xl w-full font-Manrope dark:text-slate-400 "
           {...fadeAnimation}
         >
-          At CityGrow we're dedicated to fostering competition and
-          sportsmanship.
+          At Boundary Bytes Cricket Acadamy we're dedicated to fostering
+          competition and sportsmanship.
           <br />
           Join us for thrilling matches and unforgettable moments!
         </motion.p>
@@ -98,4 +97,4 @@ function About() {
   );
 }
 
-export default  sectionWrapper( About, "about" );
+export default sectionWrapper(About, "about");

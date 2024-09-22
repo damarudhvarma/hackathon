@@ -18,7 +18,7 @@ export default function Index() {
 
         <p className= "  text-gray-500 dark:text-secondary mt-4 sm:text-[17px] max-w-8xl text-[11px] w-full font-manrope ml-5">
           {" "}
-          Got an event with multiple tournaments? We got you. Use CityGrow's
+          Got an event with multiple tournaments? We got you. Use Boundary Bytes Cricket Acadamy's
           Event feature
         </p>
         <div className="flex flex-col justify-start text-start mt-2  left-0 "> 

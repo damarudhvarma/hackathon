@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import NewTab from "./NewTab";
 
 export default function TabTitle() {
- 
   return (
     <>
       <motion.div
@@ -16,8 +15,8 @@ export default function TabTitle() {
           Enjoy your game, we'll handle the rest
         </h2>
         <p className="flex active:text-slate-600     dark:text-slate-400 flex-wrap font-manrope items-center justify-center  max-sm:text-xs max-sm:text-center max-sm:justify-center mt-8 ">
-          CityGrow has a variety of settings that can fit your Friday night game
-          with friends.
+          Boundary Bytes Cricket Acadamy has a variety of settings that can fit
+          your Friday night game with friends.
         </p>
       </motion.div>
 
@@ -27,7 +26,9 @@ export default function TabTitle() {
         transition={{ delay: 0.5 }}
         className=" text-center  ml-9"
       >
-        <h3 className="text-2xl font-bold  flex active:text-slate-700     dark:text-slate-200 flex-wrap font-manrope items-center justify-center uppercase mb-11">Featured Sport</h3>
+        <h3 className="text-2xl font-bold  flex active:text-slate-700     dark:text-slate-200 flex-wrap font-manrope items-center justify-center uppercase mb-11">
+          Featured Sport
+        </h3>
       </motion>
       <NewTab />
     </>

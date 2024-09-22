@@ -3,7 +3,7 @@ import { BiLogoInstagramAlt } from "react-icons/bi";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { RiGameFill } from "react-icons/ri";
-import {ImTwitch}  from "react-icons/im"
+import { ImTwitch } from "react-icons/im";
 export default function Footer() {
   return (
     <div className=" w-full h-full  bg-[#071325] py-6  cursor-pointer  ">
@@ -12,14 +12,14 @@ export default function Footer() {
           <div className=" my-2 items-center  ">
             <h1 className="text-white  text-2xl  font-BrunoAceSc  flex justify-around   md:justify-start lg:justify-start items-center ">
               {" "}
-              Boundary Bytes Cricket Acadamy            </h1>
+              Boundary Bytes Cricket Acadamy{" "}
+            </h1>
             <div className="flex flex-row text-white pt-5   justify-center md:justify-start lg:justify-start items-center cursor-pointer backdrop-filter gap-3 ">
               {" "}
               <BiLogoInstagramAlt />
               <AiOutlineLinkedin />
               <AiOutlineYoutube />
               <RiGameFill />
-
               <ImTwitch />
             </div>
           </div>
@@ -27,19 +27,19 @@ export default function Footer() {
           <div>
             <h2 className="font-Raleway text-white mb-4 flex justify-around items-center sm:justify-start  font-bold uppercase   ">
               {" "}
-            Explore
+              Explore
             </h2>
             <ul className="text-gray-300 text-sm   ">
               <li className="mb-1 flex justify-around items-center sm:justify-start  ">
                 <a href="#" className="hover:text-white ">
                   {" "}
-                 Tournament
+                  Tournament
                 </a>
               </li>
               <li className="mb-1 flex justify-around items-center sm:justify-start ">
                 <a href="#" className="hover:text-white">
                   {" "}
-Events
+                  Events
                 </a>
               </li>
               <li className="mb-1 flex justify-around items-center sm:justify-start ">
@@ -51,7 +51,7 @@ Events
               <li className="mb-1 flex justify-around items-center sm:justify-start ">
                 <a href="#" className="hover:text-white">
                   {" "}
-               Contact
+                  Contact
                 </a>
               </li>
             </ul>
@@ -66,7 +66,7 @@ Events
               <li className="mb-1 flex justify-around items-center sm:justify-start ">
                 <a href="./home" className="hover:text-white ">
                   {" "}
-                 API
+                  API
                 </a>
               </li>
               <li className="mb-1 flex justify-around items-center sm:justify-start ">
@@ -78,13 +78,13 @@ Events
               <li className="mb-1 flex justify-around items-center sm:justify-start  ">
                 <a href="#contact" className="hover:text-white ">
                   {" "}
-                 Privacy
+                  Privacy
                 </a>
               </li>
               <li className="mb-1 flex justify-around items-center sm:justify-start ">
                 <a href="./service" className="hover:text-white ">
                   {" "}
-               Basis
+                  Basis
                 </a>
               </li>
             </ul>
@@ -93,13 +93,12 @@ Events
           <div>
             <h2 className="font-Raleway text-white mb-4 flex justify-around items-center sm:justify-start font-bold uppercase  ">
               {" "}
-             Get in Touch
+              Get in Touch
             </h2>
             <ul className="text-gray-400 text-sm ">
               <li className="mb-1 flex justify-around items-center sm:justify-start  ">
                 <a href="#" className="hover:text-white ">
                   {" "}
-               
                 </a>
               </li>
               <li className="mb-1  flex justify-around items-center sm:justify-start ">
@@ -111,7 +110,7 @@ Events
               <li className="mb-1 flex justify-around items-center sm:justify-start ">
                 <a href="#" className="hover:text-white">
                   {" "}
-                  CityGrow@gmail.com
+                  Boundary Bytes Cricket Acadamy@gmail.com
                 </a>
               </li>
             </ul>

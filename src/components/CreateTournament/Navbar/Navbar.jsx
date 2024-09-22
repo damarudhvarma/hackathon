@@ -14,7 +14,7 @@ export default function Navbar() {
       <a href="./homepage"> 
         <h3 className="text-[#2c2c2c] dark:text-white  font-bold uppercase">
           {" "}
-          City<span className="text-orange-500 ">grow </span>
+          Boundary Bytes Cricket Acadamy 
         </h3>
         </a>
         <ul className={`list-none  flex-row  sm:gap-10  gap-5 mr-4  md:flex hidden ` }>
