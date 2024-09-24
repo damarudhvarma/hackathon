@@ -1,8 +1,8 @@
 import React from "react"
 import LoginButton from "../../../components/Login/LoginButton" ;
 import LogoutButton from "../../../components/Login/LogoutButton";
+import Profile from "../../../components/Login/Profile";
 
-import DarkMode from "../../../pages/Darkmode/DarkMode";
 
 export default function Navbar() {
  
@@ -32,7 +32,7 @@ export default function Navbar() {
           </li>
         </ul>
         <span  className="flex justify-center items-center gap-4">   
-        <DarkMode />
+       
         <LoginButton/>
       <LogoutButton /> 
       <Profile />
