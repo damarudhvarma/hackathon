@@ -1,8 +1,8 @@
 {
     "rewrites": [
       {
-        "source": "/(.*)",    // Match all routes
-        "destination": "/"     // Redirect them to index.html
+        "source": "/(.*)",    
+        "destination": "/"     
       }
     ],
     "builds": [
