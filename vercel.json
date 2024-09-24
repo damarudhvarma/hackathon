@@ -1,8 +1,8 @@
 {
     "rewrites": [
       {
-        "source": "/(.*)",
-        "destination": "/"
+        "source": "/(.*)",    // Match all routes
+        "destination": "/"     // Redirect them to index.html
       }
     ],
     "builds": [
@@ -10,14 +10,8 @@
         "src": "package.json",
         "use": "@vercel/static-build",
         "config": {
-          "distDir": "dist"
+          "distDir": "dist"   
         }
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/index.html"
       }
     ]
   }
